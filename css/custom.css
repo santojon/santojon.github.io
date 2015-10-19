@@ -1,3 +1,7 @@
 .container {
 	width: 95% !important
 }
+
+.width300 {
+	width: 300px !important
+}
