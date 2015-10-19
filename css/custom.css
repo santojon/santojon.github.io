@@ -12,7 +12,9 @@
 div .spaced10 span {padding-right: 10px !important}
 
 /*Index page related classes*/
-.signin-link {padding: 10px 20px 0 0 !important}
+.signin-link {
+	padding: 10px 20px 0 0 !important
+}
 
 /*Force to right*/
 .force-right {position: relative; right: -20px !important}
