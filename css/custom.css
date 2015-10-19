@@ -2,6 +2,50 @@
 	width: 95% !important
 }
 
-.width300 {
-	width: 300px !important
+/* Measures */
+.width100 {width:100px !important}
+.width200 {width:200px !important}
+.width300 {width:300px !important}
+.pRight10 {padding-right: 10px}
+.pTop50 {padding-top: 50px}
+.pBottom10 {padding-bottom: 10px !important}
+div .spaced10 span {padding-right: 10px !important}
+
+/*Index page related classes*/
+.signin-link {padding: 10px 20px 0 0 !important}
+
+/*Force to right*/
+.force-right {position: relative; right: -20px !important}
+
+.login-bg {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #1abc9c;
 }
+
+.login-screen {
+    background: none;
+    padding: 0 30%;
+}
+
+.login-form {
+    margin-top: 30%;
+    box-shadow: 0 12px 40px rgba(0,0,0,.15);
+}
+
+.main-logo {
+    background: none;
+    padding: 0 30%;
+    margin-top: 30%;
+}
+
+/*General*/
+.clear-fix {
+    clear: both;
+}
+
+/*Colors*/
+.gold {color: #F1C40F !important}
+.silver {color: #ECF0F1 !important}
+.asphalt {color: #34495E !important}
