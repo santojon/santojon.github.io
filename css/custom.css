@@ -3,7 +3,7 @@
     float: right;
     width: 100% important;
     position: relative;
-    padding: 30px !important;
+    padding: 50px !important;
 }
 
 
@@ -24,7 +24,7 @@
     background-color: #FFFFFF !important;
     float:left !important;
     width:250px;
-    margin-top:75px
+    margin-top: 55px
 }
 .shortcutsSidenav a {cursor:pointer; color: #000000 !important;}
 
@@ -101,7 +101,7 @@ a:hover {background-color: #F0F0F0 !important;}
 
 
 /* Theme Overrides */
-.navbar.navbar-fixed-top {background-color: #FFFFFF !important}
+.navbar.navbar-fixed-top {background-color: #FFFFFF !important; padding: 0 auto; margin: 0 auto;}
 .navbar-right {padding-right: 2em}
 input[type="text"], input[type="search"] {color: #000000 !important; background-color: #FFFFFF !important; border-color: #F0F0F0 !important}
 .btn {background-color: #FFFFFF !important; border-color: #F0F0F0 !important}
