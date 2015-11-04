@@ -1,53 +1,107 @@
+/* Container related */
 .container {
-	width: 95% !important
+    float: right;
+    width: 100% important;
+    position: relative;
+    padding: 30px !important;
 }
+
+
+
+/* Sidebar related */
+.affix.guideline {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: #FFFFFF !important;
+    float:left !important;
+    width:250px;
+    margin-top:75px
+}
+.shortcutsSidenav a {cursor:pointer; color: #000000 !important;}
+
+
 
 /* Measures */
 .width100 {width:100px !important}
 .width200 {width:200px !important}
 .width300 {width:300px !important}
+
 .pRight10 {padding-right: 10px}
 .pTop50 {padding-top: 50px}
 .pBottom10 {padding-bottom: 10px !important}
+
 div .spaced10 span {padding-right: 10px !important}
 
-/*Index page related classes*/
-.signin-link {
-	padding: 10px 20px 0 0 !important
-}
 
-/*Force to right*/
-.force-right {position: relative; right: -20px !important}
 
-.login-bg {
-	position: fixed;
-	min-width: 100%;
-	min-height: 100%;
-	background-color: #1abc9c;
-}
-
-.login-screen {
-    background: none;
-    padding: 0 30%;
-}
-
-.login-form {
-    margin-top: 30%;
-    box-shadow: 0 12px 40px rgba(0,0,0,.15);
-}
-
-.main-logo {
-    background: none;
-    padding: 0 30%;
-    margin-top: 30%;
-}
-
-/*General*/
-.clear-fix {
+/* General */
+.clearfix {
     clear: both;
 }
+.force-right {position: relative; right: -10px !important}
 
-/*Colors*/
-.gold {color: #F1C40F !important}
-.silver {color: #ECF0F1 !important}
-.asphalt {color: #34495E !important}
+
+
+/* Navbar related */
+.big-icon {
+    color: #000000 !important;
+    font-size: 25px;
+}
+.me {color: #000000 !important; font-size: 25px;}
+.ch-me {color: #000000 !important; font-size: 15px}
+.navbar-unread {
+    margin-top: 7px;
+    margin-right: 5px;
+    float: left !important;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    background-color: #00FF00;
+    border-radius: 50%;
+}
+
+
+
+/* Colors */
+.marker-yellow {color: #FFFF00 !important}
+.marker-green {color: #00FF00 !important}
+.marker-pink {color: #FF00FF !important}
+.marker-blue {color: #00FFFF !important}
+.marker-dark-blue {color: #0000FF !important}
+.marker-red {color: #FF0000 !important}
+.marker-purple {color: #BB00FF !important}
+.marker-orange {color: #FFB000 !important}
+
+.pen-black {color: #000000 !important}
+.pen-blue {color: #0000CC !important}
+.pen-green {color: #00AA00 !important}
+.pen-red {color: #CC0000 !important}
+
+.eraser-white {color: #FFFFFF !important}
+.pencil-gray {color: #F0F0F0 !important}
+.pencil-dark-gray {color: #A0A0A0 !important}
+
+
+
+/* Deafult items overrides */
+body {color: #000000 !important}
+
+a {color: #0000CC}
+a:hover {background-color: #F0F0F0 !important;}
+
+
+
+/* Theme Overrides */
+.navbar.navbar-fixed-top {background-color: #FFFFFF !important}
+.navbar-right {padding-right: 2em}
+input[type="text"], input[type="search"] {color: #000000 !important; background-color: #FFFFFF !important; border-color: #F0F0F0 !important}
+.btn {background-color: #FFFFFF !important; border-color: #F0F0F0 !important}
